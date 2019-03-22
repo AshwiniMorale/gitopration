@@ -14,6 +14,10 @@ public class ADSM {
 		System.out.println("substraction "+(a-b));
 	}
 
+	public void dev() {
+		System.out.println("substraction "+(a/b));
+	}
+	
 	public static void main(String[] args)
 	{
 		ADSM ob = new ADSM();
