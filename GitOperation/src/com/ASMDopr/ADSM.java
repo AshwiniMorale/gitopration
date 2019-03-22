@@ -15,7 +15,7 @@ public class ADSM {
 	}
 
 	public void dev() {
-		System.out.println("substraction "+(a/b));
+		System.out.println("Division "+(b/a));
 	}
 	
 	public static void main(String[] args)
@@ -23,6 +23,7 @@ public class ADSM {
 		ADSM ob = new ADSM();
 		ob.add();
 		ob.sub();
+		ob.dev();
 	}
 
 }
